@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="CV.png">
+    <title>Mariano González</title>
+    <!-- Librería de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Fuente de GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<!-- Imágenes extraídas de Google y Random User-->
+<!-- Íconos de BootstrapIcons-->
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-auto">
+                    <img src="https://randomuser.me/api/portraits/men/11.jpg" class="img-fluid rounded m-2" alt="Mariano González">
+                </div>
+                <div class="col">
+                    <h1 id="nombre">Mariano González</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#dp">Datos personales</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#fa">Formación académica</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#el">Experiencia laboral</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#capacidades">Capacidades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div id="separadorsuperior">
+        <h2 id="dp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+            </svg> Datos personales
+        </h2>
+    </div>
+    <ul>
+        <li>Fecha de nacimiento: 07/04/1986</li>
+        <li>Domicilio profesional: Av. Entre Ríos 340</li>
+        <li>Ciudad: Buenos Aires, Argentina</li>
+    </ul>
+
+    <div id="separador">
+        <h2 id="fa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+            </svg> Formación académica
+        </h2>
+    </div>
+    <h3>Universidad de Sevilla</h3>
+    <p id="p_resaltado">Maestría en Ciudad y Arquitecturas Sostenibles (2013-2015)</p>
+    <h3>Universidad Nacional de Buenos Aires</h3>
+    <p id="p_resaltado">Grado en Arquitectura (2004-2011)</p>
+    <h3>Colegio Nacional Buenos Aires</h3>
+    <p id="p_resaltado">Bachiller (2003)</p> 
+    
+    <div id="separador">
+        <h2 id="el">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
+                <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+            </svg> Experiencia laboral
+        </h2>
+    </div>
+    <h3>Estudio G+A</h3>
+    <p id="p_resaltado">Proyecto y cómputo métrico (2015-Actualidad)</p>
+    <h3>Estudio Pérez</h3>
+    <p id="p_resaltado"> Proyecto y dirección de obras (2011-2013) (2016-Actualidad)</p>
+    
+    <div id="proyectos">
+        <button id="boton" type="button" class="btn btn-primary">Ver proyectos destacados</button>
+    </div>
+    <div id="proyectos">
+        <button id="boton_ocultar" type="button" class="btn btn-primary" style="display: none">Ocultar proyectos destacados</button>
+    </div>
+    <div id="mostrar_proyectos" style= "display: none">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="https://static.tokkobroker.com/dev_pictures/25325193013361054505649786573120954306099361225356977846401618354978582625854.jpg" class="img-fluid rounded m-2" alt="Edificio en Belgrano">
+                <p>Edifcio en Belgrano</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://static.tokkobroker.com/dev_pictures/34969990494810071340633626414313521988214260979445758418911777866824416900162.jpg" class="img-fluid rounded m-2" alt="Edificio en Belgrano">
+                <p>Edifcio en Belgrano</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="https://images.adsttc.com/media/images/51b7/9b6f/b3fc/4b6d/da00/0006/large_jpg/1314050732-casa-franz-01-1000x759.jpg?1370987373" class="img-fluid rounded m-2" alt="Casa en la costa">
+                <p>Casa en la costa</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.adsttc.com/media/images/51b7/9b58/b3fc/4b31/d500/0005/large_jpg/1314054546-casa-levels-04-1000x666.jpg?1370987351" class="img-fluid rounded m-2" alt="Casa en el bosque">
+                <p>Casa en el bosque</p>
+            </div>  
+        </div>
+    </div>
+
+    <div id="separador">
+        <h2 id="capacidades">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+            </svg> Capacidades</h2>
+    </div>
+    <ul>
+        <li>Lenguas extranjeras: inglés y francés</li>
+        <li>Programas informáticos: AutoCAD y SketchUp</li>
+        <li>Elaboración de cómputos métricos y presupuestos</li>
+    </ul>
+
+    <div id="separador">
+        <h2 id="contacto">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-repeat" viewBox="0 0 16 16">
+                <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+            </svg> Contacto
+        </h2>
+    </div>
+    <p>Complete el siguiente formulario y me comunicaré con Usted:</p>
+    <form action="" method="">
+        <div class="row g-2">
+            <div class="col-md-6">
+                <label for="ingresar_nombre">Nombre</label>
+                <input type="text" class="form-control" id="ingresar_nombre" placeholder="Nombre" value required>
+            </div>
+            <div class="col-md-6">
+                <label for="ingresar_apellido">Apellido</label>
+                <input type="text" class="form-control" id="ingresar_apellido" placeholder="Apellido" value required>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-md-6">
+                <label for="ingresar_empresa">Empresa (Opcional)</label>
+                <input type="text" class="form-control" id="ingresar_empresa" placeholder="Empresa">
+            </div>
+            <div class="col-md-6">
+                <label for="ingresar_telefono">Teléfono</label>
+                <input type="number" class="form-control" id="ingresar_telefono" placeholder="Teléfono" value required>
+            </div>  
+        </div>
+        <div class="row g-2">
+            <div class="col-md-6">
+                <label for="ingresar_domicilio">Domicilio (Opcional)</label>
+                <input type="text" class="form-control" id="ingresar_domicilio" placeholder="Domicilio">
+            </div>
+            <div class="col-md-6">
+                <label for="ingresar_ciudad">Ciudad</label>
+                <input type="text" class="form-control" id="ingresar_ciudad" placeholder="Ciudad" value required>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">Escriba un mensaje (opcional)</label>
+            <textarea class="form-control" id="mensaje" rows="5"></textarea>
+        </div>
+        <div class="col-md-12"> 
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                </div>
+                <div class="col">
+                    <p id="footer">555-8931</p>
+                </div>
+                <div class="col-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                    </svg>
+                </div>
+                <div class="col">
+                    <p id="footer">mgonzalez@mail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/funciones.js"></script>
+</body>
+</html>

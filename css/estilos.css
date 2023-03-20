@@ -1,0 +1,78 @@
+body {
+    background-color: #D6EAF8 !important;
+}
+
+header {
+    background-color: #202F7D;
+    border: 1px solid black;
+    border-bottom: 0px;  
+    border-radius: 10px
+}
+
+#nombre {
+    font-family: 'Source Sans Pro', sans-serif bold;
+    color: white;
+    padding-top: 20px;
+}  
+
+#separadorsuperior, #separador {
+    padding: 10px;
+} 
+
+#separador {
+    border-top: 1px solid black;
+} 
+
+h2,h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}   
+
+h2 {
+    color: rgb(87, 75, 2) !important
+}
+
+h3 {
+    font-size: 25px !important;
+    color: rgb(103, 102, 95) !important;
+    padding-left: 45px;
+}
+
+p {
+    padding-left: 10px;
+}
+
+#p_resaltado {
+    font-weight: bold; 
+    font-size: 16px;
+    padding-left: 45px;
+}
+
+nav {
+    background-color: #445864; 
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.nav a {
+    color: white
+}
+
+#proyectos{
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+}
+
+form {
+    padding: 10px
+}
+
+footer {
+    background-color: #445864; 
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+#footer {
+    color: white
+}
